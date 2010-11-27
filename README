@@ -7,6 +7,13 @@ cd into the client folder and make
 launch with:
 ./volumecontrol <hostname> <port>
 
+Binded keys:
+<CTRL>+    increase volume
+<CTRL>-    decrease volume
+<CTRL>*    mute
+<CTRL>/    unmute
+
++,-,*,/ are the ones the numpad
 
 Server:
 cd into the server folder and make
