@@ -1,0 +1,14 @@
+PulseAudio-network-volume-control
+
+
+Client:
+cd into the client folder and make
+
+launch with:
+./volumecontrol <hostname> <port>
+
+
+Server:
+cd into the server folder and make
+launch with:
+./volumecontrols <port>
