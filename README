@@ -19,3 +19,9 @@ Server:
 cd into the server folder and make
 launch with:
 ./volumecontrols <port>
+
+Libraries:
+To compile the server on a Ubuntu machine, you'll need
+these packages:
+ - libpulse-dev
+ - build-essential
