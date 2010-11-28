@@ -1,0 +1,4 @@
+#!/bin/bash
+
+echo "done post"
+exit 0

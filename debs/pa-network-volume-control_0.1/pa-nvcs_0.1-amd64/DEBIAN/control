@@ -1,0 +1,9 @@
+Package: pa-nvcs
+Section: unknown
+Version: 0.1
+Priority: optional
+Architecture: amd64
+Installed-Size: 64991
+Maintainer: Tor Martin Slåen [tormsl@gmail.com]
+Provides: pa-nvcs
+Description: PulseAudio network volume control server pa-nvcs
