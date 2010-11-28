@@ -1,7 +1,7 @@
  CC=gcc
  CFLAGS= -lm -O3 -g -lX11
  LDFLAGS=
- EXECUTABLE=volumecontrol
+ EXECUTABLE=pa-nvc
  HEADERFILES=volumecontrol.h link.h
  SOURCES=volumecontrol.c link.c
  OBJECTS=$(SOURCES:.c=.o)

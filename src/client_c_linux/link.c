@@ -1,5 +1,5 @@
 /***
- *	This file is part of PulseAudio-network-volume-control.
+ *	This file is part of pa-network-volume-control.
  *
  *  Copyright 2010 - 2010 Tor Martin Slåen <tormsl@gmail.com>
  *
@@ -39,8 +39,6 @@ struct phys_conn {
 static struct phys_conn *conn;
 
 int init_link(char *hostname, unsigned short port) {
-	fprintf(stderr, "setup_link(%s, %d)\n", hostname, port);
-	
 	conn = calloc(1, sizeof(struct phys_conn));
 	conn->remote_hostname = strdup(hostname);
 	conn->remote_port = port;
@@ -89,8 +87,6 @@ int link_send(messagetype_t type) {
 
 
 int cleanup_link() {
-	fprintf(stderr, "cleanup_link()\n");
-
 	close( conn->device );
 	free( conn->remote_hostname );
 	free( conn );

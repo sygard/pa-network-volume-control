@@ -1,5 +1,5 @@
 /***
- *	This file is part of PulseAudio-network-volume-control.
+ *	This file is part of pa-network-volume-control.
  *
  *  Copyright 2010 - 2010 Tor Martin Slåen <tormsl@gmail.com>
  *
@@ -27,21 +27,23 @@
 #include <X11/Xutil.h>
 #include <X11/keysym.h>
 
-Display* display;
-Window window;
-
 #include "volumecontrol.h"
 #include "link.h"
 
+void print_help(int argc, char **argv);
+
+Display* display;
+Window window;
 
 int main(int argc, char **argv) {
 
-	daemon(0,0);
 
 	if( argc != 3 ) {
 		print_help(argc, argv);
 		exit(-1);
 	}
+	
+	daemon(0,0);
 
 	display = XOpenDisplay(0);
 	window = RootWindow(display, 0);
