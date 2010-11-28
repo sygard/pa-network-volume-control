@@ -1,11 +1,11 @@
-PulseAudio-network-volume-control
+pa-network-volume-control
 
 
 Client:
 cd into the client folder and make
 
 launch with:
-./volumecontrol <hostname> <port>
+./pa-nvc <hostname> <port>
 
 Binded keys:
 <CTRL>+    increase volume
@@ -18,7 +18,7 @@ Binded keys:
 Server:
 cd into the server folder and make
 launch with:
-./volumecontrols <port>
+./pa-nvcs <port>
 
 Libraries:
 To compile the server on a Ubuntu machine, you'll need
