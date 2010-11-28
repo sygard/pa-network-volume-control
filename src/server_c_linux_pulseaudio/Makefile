@@ -1,7 +1,7 @@
 CC=gcc
 CFLAGS=-O3 -g -Wall -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include  -lpulse-mainloop-glib -lpulse -lglib-2.0
 LDFLAGS=-I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include  -lpulse-mainloop-glib -lpulse -lglib-2.0
-EXECUTABLE=volumecontrols
+EXECUTABLE=pa-nvcs
 HEADERFILES=volumecontrols.h link.h mixer.h
 SOURCES=volumecontrols.c link.c mixer.c
 OBJECTS=$(SOURCES:.c=.o)

@@ -1,5 +1,5 @@
 /***
- *	This file is part of PulseAudio-network-volume-control.
+ *	This file is part of pa-network-volume-control.
  *
  *  Copyright 2010 - 2010 Tor Martin Slåen <tormsl@gmail.com>
  *
@@ -20,8 +20,8 @@
 #ifndef VOLUMECONTROLS_H
 #define VOLUMECONTROLS_H
 
-#define APPLICATION_NAME "Sygard VolumeControl Server"
-#define APPLICATION_ID "no.sygard.volumecontrol"
+#define APPLICATION_NAME "pa-network-volume-control server"
+#define APPLICATION_ID "no.sygard.volumecontrol.server"
 #define APPLICATION_VERSION "0.1-SNAPSHOT"
 
 //#define DEBUG

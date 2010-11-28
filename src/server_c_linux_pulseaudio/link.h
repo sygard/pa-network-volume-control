@@ -1,5 +1,5 @@
 /***
- *	This file is part of PulseAudio-network-volume-control.
+ *	This file is part of pa-network-volume-control.
  *
  *  Copyright 2010 - 2010 Tor Martin Slåen <tormsl@gmail.com>
  *
